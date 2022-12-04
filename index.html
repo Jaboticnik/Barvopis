@@ -1,0 +1,79 @@
+<!Doctype html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barvopis</title>
+    <link rel="stylesheet" href="slog.css">
+    <script src="index.js" type="module" defer></script>
+</head>
+<body>
+<section class="nosilec-krmilne-vrstice">
+    <ul class="krmilna-vrstica">
+        <li class="predmet-krmilne">
+            <img class="slika-strzen" src="./slike/belistrzen.png" alt="Zamisli"/>
+        </li>
+        <li class="predmet-krmilne">
+            <h1>Barvopis</h1>
+        </li>
+    </ul>
+</section>
+
+<main>
+    <section class="barvopis">
+        <div class="barvopis-vrstica">
+            <label class="skrito" for="vnosnik-barve">Izberi poljubno barvo</label>
+            <input id="vnosnik-barve" type="color" />
+            <label class="skrito" for="vnosnik-barve">Izberi poljubnen odtenek</label>
+            <select id="izbirnik">
+                    <option value="monochrome">Enobarvno</option>
+                    <option value="monochrome-dark">Enobarvno-temno</option>
+                    <option value="monochrome-light">Enobarvno-svetlo</option>
+                    <option value="analogic">Sorodno</option>
+                    <option value="complement">Dopolnilno</option>
+                    <option value="analogic-complement">Sorodno-dopolnilno</option>
+                    <option value="triad">Trojica</option>
+                    <option value="quad">Četverček</option>
+                </select>
+            <button id="gumb-potrdi" class="gumb">Potrdi</button>
+        </div>
+        <div id="prikaz-barv" class="prikaz-barv">
+            <div class="prikazna-barva" id="barvopis-barva-1">
+                <div class="prikazajoca-se-barva okostje"></div>
+                <div class="okostje okostje-besedilo"></div>
+                <div class="okostje okostje-besedilo"></div>
+            </div>
+            <div class="prikazna-barva" id="barvopis-barva-2">
+                <div class="prikazajoca-se-barva okostje"></div>
+                <div class="okostje okostje-besedilo"></div>
+                <div class="okostje okostje-besedilo"></div>
+            </div>
+            <div class="prikazna-barva" id="barvopis-barva-3">
+                <div class="prikazajoca-se-barva okostje"></div>
+                <div class="okostje okostje-besedilo"></div>
+                <div class="okostje okostje-besedilo"></div>
+            </div>
+            <div class="prikazna-barva" id="barvopis-barva-4">
+                <div class="prikazajoca-se-barva okostje"></div>
+                <div class="okostje okostje-besedilo"></div>
+                <div class="okostje okostje-besedilo"></div>
+            </div>
+            <div class="prikazna-barva" id="barvopis-barva-5">
+                <div class="prikazajoca-se-barva okostje"></div>
+                <div class="okostje okostje-besedilo"></div>
+                <div class="okostje okostje-besedilo"></div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <button id="sprememba-nacina" class="sprememba-nacina" aria-label="Sprememba načina (svetlo/temno)">
+        <img class="slika-noga" src="./slike/strzen-logo.png" alt="Zamisli"/>
+    </button>
+    <h3>© 2022, Stržen</h3>
+    <a href="https://github.com/Jaboticnik/Barvopis" target="_blank" class="izvorna-koda">Izvorna koda</a>
+</footer>
+
+</body>
+</html>
