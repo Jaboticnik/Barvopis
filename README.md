@@ -5,7 +5,7 @@ Izdelan za vajo HTML/CSS/JAVASCRIPT => API.<br>
 * S PRITISKOM NA MAJHNO SLIKO STRŽENA NA DNU STRANI SPREMENITE <bold>BARVNI NAČIN STRANI</bold>.
 * S PRITISKOM NA BESEDILO POD BARVO, V ODLOŽIŠČE SHRANITE <bold>HEX VREDNOST BARVE</bold>.
 
-<a href="https://barvopis.strzen.xyz">Predogled</a> v živo.
+<a href="https://barvopis.strzen.si">Predogled</a> v živo.
 <br>
 Slike:
 <br>
